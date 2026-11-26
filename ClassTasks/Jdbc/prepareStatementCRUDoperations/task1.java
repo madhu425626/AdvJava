@@ -1,4 +1,17 @@
-package com.pack1;
+//*
+SQL> desc patient;
+ Name                                                  Null?    Type
+ ----------------------------------------------------- -------- ------------------------------------
+ ID                                                    NOT NULL NUMBER
+ NAME                                                           VARCHAR2(30)
+ AGE                                                            NUMBER(3)
+ PHNO                                                           NUMBER(10)
+*/
+
+
+
+
+package com.pack1;						
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
